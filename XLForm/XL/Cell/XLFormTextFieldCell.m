@@ -185,10 +185,10 @@ NSString *const XLFormTextFieldMaxNumberOfCharacters = @"textFieldMaxNumberOfCha
     return _textLabel;
 }
 
--(UITextField *)textField
+-(XLTextField *)textField
 {
     if (_textField) return _textField;
-    _textField = [UITextField autolayoutView];
+    _textField = [XLTextField autolayoutView];
     return _textField;
 }
 
