@@ -192,7 +192,7 @@ NSString *const XLFormTextFieldMaxNumberOfCharacters = @"textFieldMaxNumberOfCha
 {
     if (_textField) return _textField;
     _textField = [XLTextField autolayoutView];
-    _textField.backgroundColor = self.backgroundColor;
+    _textField.opaque = YES;
     return _textField;
 }
 

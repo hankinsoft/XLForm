@@ -10,6 +10,7 @@
 
 @interface XLTextField : UITextField
 
+@property(nonatomic,retain) UIColor * backgroundColor UI_APPEARANCE_SELECTOR;
 @property(nonatomic,retain) UIColor * textColorDisabled UI_APPEARANCE_SELECTOR;
 @property(nonatomic,retain) UIColor * textColorEnabled UI_APPEARANCE_SELECTOR;
 
