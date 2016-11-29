@@ -14,12 +14,10 @@
 {
     [[XLTextField appearance] setTextColorEnabled: [UIColor blackColor]];
     [[XLTextField appearance] setTextColorDisabled: [UIColor grayColor]];
-    [[XLTextField appearance] setBackgroundColor: [UIColor redColor]];
 } // End of load
 
 - (void) setBackgroundColor:(UIColor *)backgroundColor
 {
-    NSLog(@"SET BACKGROUNDCOLOR CALLED!");
     [super setBackgroundColor: backgroundColor];
 }
 
