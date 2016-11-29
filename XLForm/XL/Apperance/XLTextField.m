@@ -10,19 +10,22 @@
 
 @implementation XLTextField
 
-@synthesize textColorEnabled, textColorDisabled;
-
 + (void) load
 {
     [[XLTextField appearance] setTextColorEnabled: [UIColor blackColor]];
     [[XLTextField appearance] setTextColorDisabled: [UIColor grayColor]];
     [[XLTextField appearance] setBackgroundColor: [UIColor redColor]];
-} // End of initialize
+} // End of load
 
 - (void) setBackgroundColor:(UIColor *)backgroundColor
 {
     NSLog(@"SET BACKGROUNDCOLOR CALLED!");
     [super setBackgroundColor: backgroundColor];
+}
+
+- (void) setBackground:(UIImage *)background
+{
+    [super setBackground: background];
 }
 
 - (UIColor*) textColorEnabled

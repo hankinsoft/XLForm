@@ -10,4 +10,7 @@
 
 @interface XLLabel : UILabel
 
+@property(nonatomic,retain) UIColor * textColorDisabled UI_APPEARANCE_SELECTOR;
+@property(nonatomic,retain) UIColor * textColorEnabled UI_APPEARANCE_SELECTOR;
+
 @end

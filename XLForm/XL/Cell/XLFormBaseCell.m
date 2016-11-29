@@ -24,6 +24,7 @@
 // THE SOFTWARE.
 
 #import "XLFormBaseCell.h"
+#import "XLLabel.h"
 
 @implementation XLFormBaseCell
 
@@ -46,11 +47,20 @@
 {
 }
 
-- (void)update
+- (void) update
 {
     self.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
     self.detailTextLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
-    self.textLabel.textColor  = self.rowDescriptor.isDisabled ? [UIColor grayColor] : [UIColor blackColor];
+
+    self.textLabel.textColor = self.rowDescriptor.isDisabled ?
+        [UIColor grayColor] : [UIColor blackColor];
+
+    if([self.textLabel isKindOfClass: [XLLabel class]])
+    {
+        XLLabel * label = (id) self.textLabel;
+        label.textColor = self.rowDescriptor.isDisabled ?
+            label.textColorDisabled : label.textColorEnabled;
+    } // End of textLabel is XLLabel
 }
 
 -(void)highlight
