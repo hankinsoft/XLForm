@@ -75,6 +75,7 @@
 
 //Apperance
 #import "XLTextField.h"
+#import "XLLabel.h"
 
 
 extern NSString *const XLFormRowDescriptorTypeAccount;

@@ -181,10 +181,10 @@ NSString *const XLFormTextFieldMaxNumberOfCharacters = @"textFieldMaxNumberOfCha
 
 #pragma mark - Properties
 
--(UILabel *)textLabel
+-(XLLabel *)textLabel
 {
     if (_textLabel) return _textLabel;
-    _textLabel = [UILabel autolayoutView];
+    _textLabel = [XLLabel autolayoutView];
     return _textLabel;
 }
 
@@ -192,7 +192,6 @@ NSString *const XLFormTextFieldMaxNumberOfCharacters = @"textFieldMaxNumberOfCha
 {
     if (_textField) return _textField;
     _textField = [XLTextField autolayoutView];
-    _textField.opaque = YES;
     return _textField;
 }
 
