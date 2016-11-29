@@ -73,6 +73,9 @@
 //Validation
 #import "XLFormRegexValidator.h"
 
+//Apperance
+#import "XLTextField.h"
+
 
 extern NSString *const XLFormRowDescriptorTypeAccount;
 extern NSString *const XLFormRowDescriptorTypeBooleanCheck;

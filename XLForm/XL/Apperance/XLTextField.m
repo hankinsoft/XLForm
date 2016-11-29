@@ -10,12 +10,27 @@
 
 @implementation XLTextField
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
+@synthesize textColorEnabled, textColorDisabled;
+
++ (void) load
+{
+    [[XLTextField appearance] setTextColorEnabled: [UIColor blackColor]];
+    [[XLTextField appearance] setTextColorDisabled: [UIColor grayColor]];
+} // End of initialize
+
+- (UIColor*) textColorEnabled
+{
+    return [[XLTextField appearance] textColorEnabled];
+} // End of textColorEnabled
+
+- (UIColor*) textColorDisabled
+{
+    return [[XLTextField appearance] textColorDisabled];
+} // End of textColorDisabled
+
+- (void) setTextColor: (UIColor *) textColor
+{
+    [super setTextColor: textColor];
+} // End of setTextColor:
 
 @end
