@@ -68,7 +68,6 @@
 #import "XLFormSwitchCell.h"
 #import "XLFormTextFieldCell.h"
 #import "XLFormTextViewCell.h"
-#import "XLFormImageCell.h"
 
 //Validation
 #import "XLFormRegexValidator.h"
@@ -91,7 +90,6 @@ extern NSString *const XLFormRowDescriptorTypeDateTime;
 extern NSString *const XLFormRowDescriptorTypeDateTimeInline;
 extern NSString *const XLFormRowDescriptorTypeDecimal;
 extern NSString *const XLFormRowDescriptorTypeEmail;
-extern NSString *const XLFormRowDescriptorTypeImage;
 extern NSString *const XLFormRowDescriptorTypeInfo;
 extern NSString *const XLFormRowDescriptorTypeInteger;
 extern NSString *const XLFormRowDescriptorTypeMultipleSelector;
