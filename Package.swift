@@ -18,3 +18,4 @@ let package = Package(
             publicHeadersPath: "XL"
         )
     ]
+)
