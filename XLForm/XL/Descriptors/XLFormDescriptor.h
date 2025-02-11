@@ -23,9 +23,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "XLFormSectionDescriptor.h"
-#import "XLFormRowDescriptor.h"
-#import "XLFormDescriptorDelegate.h"
+#import <XLForm/XLFormSectionDescriptor.h>
+#import <XLForm/XLFormRowDescriptor.h>
+#import <XLForm/XLFormDescriptorDelegate.h>
 #import <Foundation/Foundation.h>
 
 extern NSString * __nonnull const XLFormErrorDomain;

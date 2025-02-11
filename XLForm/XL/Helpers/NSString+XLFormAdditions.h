@@ -24,7 +24,7 @@
 // THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import "XLFormDescriptor.h"
+#import <XLForm/XLFormDescriptor.h>
 
 @interface NSString (XLFormAdditions)
 

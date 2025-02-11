@@ -24,7 +24,7 @@
 // THE SOFTWARE.
 
 
-#import "XLFormValidatorProtocol.h"
+#import <XLForm/XLFormValidatorProtocol.h>
 
 @interface XLFormValidator : NSObject<XLFormValidatorProtocol>
 

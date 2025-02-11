@@ -25,8 +25,8 @@
 
 
 
-#import "XLFormRowDescriptorViewController.h"
-#import "XLFormRowDescriptor.h"
+#import <XLForm/XLFormRowDescriptorViewController.h>
+#import <XLForm/XLFormRowDescriptor.h>
 
 @interface XLFormOptionsViewController : UITableViewController<XLFormRowDescriptorViewController, XLFormRowDescriptorPopoverViewController>
 

@@ -23,9 +23,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "XLFormValidatorProtocol.h"
-#import "XLFormValidationStatus.h"
-#import "XLFormValidator.h"
+#import <XLForm/XLFormValidatorProtocol.h>
+#import <XLForm/XLFormValidationStatus.h>
+#import <XLForm/XLFormValidator.h>
 
 @interface XLFormRegexValidator : XLFormValidator
 

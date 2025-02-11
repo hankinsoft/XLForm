@@ -23,8 +23,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "XLForm.h"
-#import "XLFormBaseCell.h"
+#import <XLForm/XLForm.h>
+#import <XLForm/XLFormBaseCell.h>
 
 @interface XLFormPickerCell : XLFormBaseCell<XLFormInlineRowDescriptorCell>
 

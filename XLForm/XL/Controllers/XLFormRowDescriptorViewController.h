@@ -24,7 +24,7 @@
 // THE SOFTWARE.
 
 
-#import "XLFormRowDescriptor.h"
+#import <XLForm/XLFormRowDescriptor.h>
 #import <Foundation/Foundation.h>
 
 @protocol XLFormRowDescriptorViewController <NSObject>

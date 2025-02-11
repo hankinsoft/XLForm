@@ -25,7 +25,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "XLFormRowDescriptor.h"
+#import <XLForm/XLFormRowDescriptor.h>
 
 @interface XLFormValidationStatus : NSObject
 

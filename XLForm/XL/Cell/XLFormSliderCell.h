@@ -23,7 +23,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "XLForm.h"
+#import <XLForm/XLForm.h>
 
 @interface XLFormSliderCell : XLFormBaseCell
 

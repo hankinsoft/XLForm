@@ -23,8 +23,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "XLFormTextView.h"
-#import "XLFormBaseCell.h"
+#import <XLForm/XLFormTextView.h>
+#import <XLForm/XLFormBaseCell.h>
 #import <UIKit/UIKit.h>
 
 extern NSString *const XLFormTextViewLengthPercentage;

@@ -24,12 +24,12 @@
 // THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
-#import "XLFormOptionsViewController.h"
-#import "XLFormDescriptor.h"
-#import "XLFormSectionDescriptor.h"
-#import "XLFormDescriptorDelegate.h"
-#import "XLFormRowNavigationAccessoryView.h"
-#import "XLFormBaseCell.h"
+#import <XLForm/XLFormOptionsViewController.h>
+#import <XLForm/XLFormDescriptor.h>
+#import <XLForm/XLFormSectionDescriptor.h>
+#import <XLForm/XLFormDescriptorDelegate.h>
+#import <XLForm/XLFormRowNavigationAccessoryView.h>
+#import <XLForm/XLFormBaseCell.h>
 
 @class XLFormViewController;
 @class XLFormRowDescriptor;

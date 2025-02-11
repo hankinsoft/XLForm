@@ -23,8 +23,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "XLFormDescriptorCell.h"
-#import "XLFormViewController.h"
+#import <XLForm/XLFormDescriptorCell.h>
+#import <XLForm/XLFormViewController.h>
 #import <UIKit/UIKit.h>
 
 @class XLFormViewController;

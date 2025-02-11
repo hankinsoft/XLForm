@@ -23,10 +23,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "XLFormBaseCell.h"
+#import <XLForm/XLFormBaseCell.h>
 #import <UIKit/UIKit.h>
-#import "XLTextField.h"
-#import "XLLabel.h"
+#import <XLForm/XLTextField.h>
+#import <XLForm/XLLabel.h>
 
 extern NSString *const XLFormTextFieldLengthPercentage;
 extern NSString *const XLFormTextFieldMaxNumberOfCharacters;
