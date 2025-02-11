@@ -25,56 +25,56 @@
 
 #import <Foundation/Foundation.h>
 
-//Descriptors
-#import "XLFormDescriptor.h"
-#import "XLFormRowDescriptor.h"
-#import "XLFormSectionDescriptor.h"
+// Descriptors
+#import <XLForm/XLFormDescriptor.h>
+#import <XLForm/XLFormRowDescriptor.h>
+#import <XLForm/XLFormSectionDescriptor.h>
 
 // Categories
-#import "NSArray+XLFormAdditions.h"
-#import "NSExpression+XLFormAdditions.h"
-#import "NSObject+XLFormAdditions.h"
-#import "NSPredicate+XLFormAdditions.h"
-#import "NSString+XLFormAdditions.h"
-#import "UIView+XLFormAdditions.h"
+#import <XLForm/NSArray+XLFormAdditions.h>
+#import <XLForm/NSExpression+XLFormAdditions.h>
+#import <XLForm/NSObject+XLFormAdditions.h>
+#import <XLForm/NSPredicate+XLFormAdditions.h>
+#import <XLForm/NSString+XLFormAdditions.h>
+#import <XLForm/UIView+XLFormAdditions.h>
 
-//helpers
-#import "XLFormOptionsObject.h"
+// Helpers
+#import <XLForm/XLFormOptionsObject.h>
 
-//Controllers
-#import "XLFormOptionsViewController.h"
-#import "XLFormViewController.h"
+// Controllers
+#import <XLForm/XLFormOptionsViewController.h>
+#import <XLForm/XLFormViewController.h>
 
-//Protocols
-#import "XLFormDescriptorCell.h"
-#import "XLFormInlineRowDescriptorCell.h"
-#import "XLFormRowDescriptorViewController.h"
+// Protocols
+#import <XLForm/XLFormDescriptorCell.h>
+#import <XLForm/XLFormInlineRowDescriptorCell.h>
+#import <XLForm/XLFormRowDescriptorViewController.h>
 
-//Cells
-#import "XLFormBaseCell.h"
-#import "XLFormButtonCell.h"
-#import "XLFormCheckCell.h"
-#import "XLFormDateCell.h"
-#import "XLFormDatePickerCell.h"
-#import "XLFormInlineSelectorCell.h"
-#import "XLFormLeftRightSelectorCell.h"
-#import "XLFormPickerCell.h"
-#import "XLFormRightDetailCell.h"
-#import "XLFormRightImageButton.h"
-#import "XLFormSegmentedCell.h"
-#import "XLFormSelectorCell.h"
-#import "XLFormSliderCell.h"
-#import "XLFormStepCounterCell.h"
-#import "XLFormSwitchCell.h"
-#import "XLFormTextFieldCell.h"
-#import "XLFormTextViewCell.h"
+// Cells
+#import <XLForm/XLFormBaseCell.h>
+#import <XLForm/XLFormButtonCell.h>
+#import <XLForm/XLFormCheckCell.h>
+#import <XLForm/XLFormDateCell.h>
+#import <XLForm/XLFormDatePickerCell.h>
+#import <XLForm/XLFormInlineSelectorCell.h>
+#import <XLForm/XLFormLeftRightSelectorCell.h>
+#import <XLForm/XLFormPickerCell.h>
+#import <XLForm/XLFormRightDetailCell.h>
+#import <XLForm/XLFormRightImageButton.h>
+#import <XLForm/XLFormSegmentedCell.h>
+#import <XLForm/XLFormSelectorCell.h>
+#import <XLForm/XLFormSliderCell.h>
+#import <XLForm/XLFormStepCounterCell.h>
+#import <XLForm/XLFormSwitchCell.h>
+#import <XLForm/XLFormTextFieldCell.h>
+#import <XLForm/XLFormTextViewCell.h>
 
-//Validation
-#import "XLFormRegexValidator.h"
+// Validation
+#import <XLForm/XLFormRegexValidator.h>
 
-//Apperance
-#import "XLTextField.h"
-#import "XLLabel.h"
+// Appearance
+#import <XLForm/XLTextField.h>
+#import <XLForm/XLLabel.h>
 
 
 extern NSString *const XLFormRowDescriptorTypeAccount;
