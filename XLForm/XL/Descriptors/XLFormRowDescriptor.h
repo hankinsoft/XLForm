@@ -25,9 +25,9 @@
 
 
 #import <Foundation/Foundation.h>
-#import "XLFormBaseCell.h"
-#import "XLFormValidatorProtocol.h"
-#import "XLFormValidationStatus.h"
+#import <XLForm/XLFormBaseCell.h>
+#import <XLForm/XLFormValidatorProtocol.h>
+#import <XLForm/XLFormValidationStatus.h>
 
 extern CGFloat XLFormUnspecifiedCellHeight;
 

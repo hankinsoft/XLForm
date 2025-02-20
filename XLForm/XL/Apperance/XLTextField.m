@@ -12,8 +12,8 @@
 
 + (void) load
 {
-    [[XLTextField appearance] setTextColorEnabled: [UIColor blackColor]];
-    [[XLTextField appearance] setTextColorDisabled: [UIColor grayColor]];
+    [[XLTextField appearance] setTextColorEnabled: UIColor.labelColor];
+    [[XLTextField appearance] setTextColorDisabled: [UIColor.labelColor colorWithAlphaComponent: 0.5]];
 } // End of load
 
 - (void) setBackgroundColor:(UIColor *)backgroundColor

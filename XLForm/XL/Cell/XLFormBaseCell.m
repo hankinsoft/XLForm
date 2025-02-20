@@ -53,7 +53,7 @@
     self.detailTextLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
 
     self.textLabel.textColor = self.rowDescriptor.isDisabled ?
-        [UIColor grayColor] : [UIColor blackColor];
+    UIColor.labelColor : [UIColor.labelColor colorWithAlphaComponent: 0.5];
 
     if([self.textLabel isKindOfClass: [XLLabel class]])
     {

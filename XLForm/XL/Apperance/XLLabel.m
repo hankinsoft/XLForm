@@ -14,8 +14,8 @@
 
 + (void) load
 {
-    [[XLLabel appearance] setTextColorEnabled: [UIColor blackColor]];
-    [[XLLabel appearance] setTextColorDisabled: [UIColor grayColor]];
+    [[XLLabel appearance] setTextColorEnabled: UIColor.labelColor];
+    [[XLLabel appearance] setTextColorDisabled: [UIColor.labelColor colorWithAlphaComponent: 0.5]];
 } // End of load
 
 - (UIColor*) textColorEnabled

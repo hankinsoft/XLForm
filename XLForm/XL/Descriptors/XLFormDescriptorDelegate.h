@@ -23,7 +23,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "XLFormDescriptor.h"
+#import <XLForm/XLFormDescriptor.h>
 #import <Foundation/Foundation.h>
 
 @class XLFormSectionDescriptor;
