@@ -24,7 +24,6 @@
 // THE SOFTWARE.
 
 #import "XLFormBaseCell.h"
-#import "XLLabel.h"
 
 @implementation XLFormBaseCell
 
@@ -54,13 +53,6 @@
 
     self.textLabel.textColor = self.rowDescriptor.isDisabled ?
     UIColor.labelColor : [UIColor.labelColor colorWithAlphaComponent: 0.5];
-
-    if([self.textLabel isKindOfClass: [XLLabel class]])
-    {
-        XLLabel * label = (id) self.textLabel;
-        label.textColor = self.rowDescriptor.isDisabled ?
-            label.textColorDisabled : label.textColorEnabled;
-    } // End of textLabel is XLLabel
 }
 
 -(void)highlight

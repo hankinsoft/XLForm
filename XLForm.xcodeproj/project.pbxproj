@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		723778D11DEDFBE50029C8BE /* XLLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 723778CF1DEDFBE50029C8BE /* XLLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		723778D21DEDFBE50029C8BE /* XLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 723778D01DEDFBE50029C8BE /* XLLabel.m */; };
-		72841A961DECC55000E90A03 /* XLTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 72841A941DECC55000E90A03 /* XLTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72841A971DECC55000E90A03 /* XLTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 72841A951DECC55000E90A03 /* XLTextField.m */; };
 		E267FD7C1BE804E200F86B42 /* XLFormBaseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E267FD2C1BE804E200F86B42 /* XLFormBaseCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E267FD7D1BE804E200F86B42 /* XLFormBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E267FD2D1BE804E200F86B42 /* XLFormBaseCell.m */; };
 		E267FD7E1BE804E200F86B42 /* XLFormButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E267FD2E1BE804E200F86B42 /* XLFormButtonCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -90,10 +86,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		723778CF1DEDFBE50029C8BE /* XLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLLabel.h; path = XL/Apperance/XLLabel.h; sourceTree = "<group>"; };
-		723778D01DEDFBE50029C8BE /* XLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLLabel.m; path = XL/Apperance/XLLabel.m; sourceTree = "<group>"; };
-		72841A941DECC55000E90A03 /* XLTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLTextField.h; path = XL/Apperance/XLTextField.h; sourceTree = "<group>"; };
-		72841A951DECC55000E90A03 /* XLTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLTextField.m; path = XL/Apperance/XLTextField.m; sourceTree = "<group>"; };
 		E267FD201BE8048900F86B42 /* XLForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E267FD251BE8048900F86B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E267FD2C1BE804E200F86B42 /* XLFormBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormBaseCell.h; sourceTree = "<group>"; };
@@ -185,17 +177,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		72841A931DECC52700E90A03 /* Apperance */ = {
-			isa = PBXGroup;
-			children = (
-				72841A941DECC55000E90A03 /* XLTextField.h */,
-				72841A951DECC55000E90A03 /* XLTextField.m */,
-				723778CF1DEDFBE50029C8BE /* XLLabel.h */,
-				723778D01DEDFBE50029C8BE /* XLLabel.m */,
-			);
-			name = Apperance;
-			sourceTree = "<group>";
-		};
 		E267FD161BE8048900F86B42 = {
 			isa = PBXGroup;
 			children = (
@@ -215,7 +196,6 @@
 		E267FD221BE8048900F86B42 /* XLForm */ = {
 			isa = PBXGroup;
 			children = (
-				72841A931DECC52700E90A03 /* Apperance */,
 				E267FD2B1BE804E200F86B42 /* Cell */,
 				E267FD4C1BE804E200F86B42 /* Controllers */,
 				E267FD541BE804E200F86B42 /* Descriptors */,
@@ -396,8 +376,6 @@
 				E267FD981BE804E200F86B42 /* XLFormTextFieldCell.h in Headers */,
 				E267FD7C1BE804E200F86B42 /* XLFormBaseCell.h in Headers */,
 				E267FD861BE804E200F86B42 /* XLFormDescriptorCell.h in Headers */,
-				72841A961DECC55000E90A03 /* XLTextField.h in Headers */,
-				723778D11DEDFBE50029C8BE /* XLLabel.h in Headers */,
 				E267FDA01BE804E200F86B42 /* XLFormRowDescriptorViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,7 +454,6 @@
 				E267FDBD1BE804E200F86B42 /* XLFormTextView.m in Sources */,
 				E267FDB91BE804E200F86B42 /* XLFormRightImageButton.m in Sources */,
 				E267FDAB1BE804E200F86B42 /* NSArray+XLFormAdditions.m in Sources */,
-				72841A971DECC55000E90A03 /* XLTextField.m in Sources */,
 				E267FD811BE804E200F86B42 /* XLFormCheckCell.m in Sources */,
 				E267FDB71BE804E200F86B42 /* XLFormRightDetailCell.m in Sources */,
 				E267FD831BE804E200F86B42 /* XLFormDateCell.m in Sources */,
@@ -489,7 +466,6 @@
 				E267FDB11BE804E200F86B42 /* NSPredicate+XLFormAdditions.m in Sources */,
 				E267FDA41BE804E200F86B42 /* XLFormDescriptor.m in Sources */,
 				E267FD8B1BE804E200F86B42 /* XLFormLeftRightSelectorCell.m in Sources */,
-				723778D21DEDFBE50029C8BE /* XLLabel.m in Sources */,
 				E267FD9F1BE804E200F86B42 /* XLFormOptionsViewController.m in Sources */,
 				E267FD8D1BE804E200F86B42 /* XLFormPickerCell.m in Sources */,
 				E267FD951BE804E200F86B42 /* XLFormStepCounterCell.m in Sources */,
@@ -551,7 +527,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -592,7 +568,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

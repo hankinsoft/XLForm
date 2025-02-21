@@ -72,11 +72,6 @@
 // Validation
 #import <XLForm/XLFormRegexValidator.h>
 
-// Appearance
-#import <XLForm/XLTextField.h>
-#import <XLForm/XLLabel.h>
-
-
 extern NSString *const XLFormRowDescriptorTypeAccount;
 extern NSString *const XLFormRowDescriptorTypeBooleanCheck;
 extern NSString *const XLFormRowDescriptorTypeBooleanSwitch;

@@ -152,7 +152,7 @@ NSString *const XLFormTextFieldMaxNumberOfCharacters = @"textFieldMaxNumberOfCha
     [self.textField setEnabled:!self.rowDescriptor.isDisabled];
 
     self.textField.textColor = self.rowDescriptor.isDisabled ?
-        self.textField.textColorDisabled : self.textField.textColorEnabled;
+        [UIColor.labelColor colorWithAlphaComponent: 0.5] : UIColor.labelColor;
 
     self.textField.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
 }
@@ -181,17 +181,17 @@ NSString *const XLFormTextFieldMaxNumberOfCharacters = @"textFieldMaxNumberOfCha
 
 #pragma mark - Properties
 
--(XLLabel *)textLabel
+-(UILabel *)textLabel
 {
     if (_textLabel) return _textLabel;
-    _textLabel = [XLLabel autolayoutView];
+    _textLabel = [UILabel autolayoutView];
     return _textLabel;
 }
 
--(XLTextField *)textField
+-(UITextField *)textField
 {
     if (_textField) return _textField;
-    _textField = [XLTextField autolayoutView];
+    _textField = [UITextField autolayoutView];
     return _textField;
 }
 
